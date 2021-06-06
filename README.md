@@ -1,5 +1,8 @@
 # 01-homework (Horiseon Marketing Page)
 
+To view the actual webpage, please click [here](https://valbona1992.github.io/01-homework/).
+
+
 ## Summary
 This assignmente requrited me to make changes to the HTML using smeantic tags and modifing the CSS styling sheet.
 
@@ -17,4 +20,7 @@ Below is a summary of the things I changed:
 
 
 
+
+## Screenshot
+![screenshot](imgs/screenshot.png)
 
