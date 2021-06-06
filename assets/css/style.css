@@ -8,23 +8,26 @@ body {
     background-color: #d9dcd6;
 }
 
+/* HEADER SECTION */
+/* This provides the text, background color, font color, and padding for the header information */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* This provides the font-size and positioning of the header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* This provides the color to the <span> element that "seo" is in */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/* This provides font size, font family, posiition of the box elements */
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,24 +35,29 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/* Removes listed bullet points */
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+/* This places the children of the nav element in a horizontal line */
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Provides the color of the nav links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Font-size of the paragraph elements */
 p {
     font-size: 16px;
 }
 
+/* Provides image height and width, as well as the image URL and positioning */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +67,46 @@ p {
     background-position: center;
 }
 
+/* CONTENT SECTION */
+/* Images will float left in the box element */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Imanges will float right in the box element */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* This presents the content as 75% of page, and provides the display and margins on the page */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Provides specific styling for .content-article elements */
+.content-article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Changes the image size */
+.content-article img {
+    max-height: 200px;
+}
+/* Provides font-size and bottom margin for the h2 in the content-article element */
+.content-article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Provides poisition on the page, and font-family and background color. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,109 +117,26 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit-lead {
+/* Provides color and margin for the aside elements */
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* Provides the alignments and margins for the h3 elements of the aside */
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* Provides the positioning and size of the element */
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* FOOTER SECTION */
 .footer {
     padding: 30px;
     clear: both;
